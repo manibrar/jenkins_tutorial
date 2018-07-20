@@ -7,7 +7,7 @@ var should = chai.should();
 chai.use(chaiHttp);
 
 describe('Homepage', function() {
-  
+
   var res;
 
   before(function(done) {
